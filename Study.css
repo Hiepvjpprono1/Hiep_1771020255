@@ -1,0 +1,176 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    border: 1px groove gainsboro;
+}
+header #logo{
+    background-color: rgb(52, 132, 202);
+    float: left;
+    margin-left: 150px;
+}
+#logo img{
+    width: 99px;
+    height: 99px;
+}
+.head{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.head li{
+    list-style-type: none;
+    margin: auto;
+}
+.head input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px groove gainsboro;
+}
+.head #phone{
+    color: orange;
+    margin-left: 340px;
+    margin-right: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.head #login button{
+    color: gray;
+    background-color: white;
+    border: 2px groove gainsboro;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#logout button{
+    color: white;
+    background-color: orange;
+    border: 1px groove orange;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 150px;
+    font-weight: bold;
+}
+.menu ul{
+    display: flex;
+    margin-right: 500px;
+}
+.menu li{
+    list-style-type: none;
+    margin: auto;
+    font-size: 17px;
+    font-weight: bold;
+    color: gray;
+}
+.menu li:hover{
+    color: aqua;
+}
+.list{
+    float: left;
+    border: 2px groove whitesmoke;
+    margin-top: 20px;
+    padding-right: 30px;
+    margin-left: 60px;
+}
+.list h1{
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(74, 72, 72);
+}
+.list li{
+    list-style-type: none;
+    color: rgb(74, 72, 72);
+    padding-top: 10px;
+}
+.list .sub-menu{
+    position: absolute;
+    display: none;
+    top: auto;
+    left: auto;
+}
+.sub-menu{
+    border: 1px solid black;
+}
+.list li:hover .sub-menu{
+    display: flex;
+    background-color: white;
+}
+#listmenu-1 div{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(52, 132, 202);
+    margin-right: 50px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.sub-menu #listmenu-1 li:hover{
+    display: flex;
+    color: rgb(52, 132, 202);
+}
+#listmenu-1 h3{
+    color: rgb(52, 132, 202);
+}
+#listmenu-1 h4{
+    color: rgb(52, 132, 202);
+}
+#listmenu-2 img{
+    margin-left: 650px;
+}
+#img1{
+    width:550px;
+    height: 330px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+#img2{
+    margin-left: 70px;
+    width: 270px;
+    height: 240px;
+    padding-bottom: 30px;
+}
+body main{
+    background-color: aqua;
+    padding-bottom: 20px;
+}
+#text1{
+    color: white;
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    margin-left: 1150px;
+    padding-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#text1:hover{
+    background-color: white;
+    color: black;
+}
+footer .fter1{
+    margin-top: 80px;
+    text-align: center;
+    background: black;
+    color: #f1f1f1;
+    padding-top: 100px;
+}
+
+footer .fter1 a img{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+.fter2{
+    margin-left: 100px;
+    margin-top: 10px;
+    color: greenyellow;
+}
